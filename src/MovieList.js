@@ -6,7 +6,7 @@ import Nav from './Nav';
 
 const MovieList =() => {
 
-const [movies,setMovies] = useContext(MovieContext);
+const {movies=[]} = useContext(MovieContext);
   return (
     <>
     <div>
